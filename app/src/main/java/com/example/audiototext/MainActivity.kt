@@ -59,7 +59,6 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
 
-                    val snackbarHostState = remember { SnackbarHostState() }
                     var canRecord by remember { mutableStateOf(false) }
 
                     val recordAudioLauncher = rememberLauncherForActivityResult(
@@ -138,5 +137,4 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
-
 }
