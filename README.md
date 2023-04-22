@@ -1,4 +1,4 @@
-### Voice-to-Text App in Jetpack Compose (2/3)
+### Voice-to-Text App in Jetpack Compose 
 In this project, I learned how to convert voice to text in Jetpack Compose. And I learn to use: <br>
 
 1. rememberLauncherForActivityResult()
